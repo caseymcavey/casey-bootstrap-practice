@@ -22,16 +22,24 @@
 
 // Import partials:
 
+
+// Google font:
+
+@import "https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap";
+
 // Custom styles:
 
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
+.nav-item a:hover {
   text-decoration: underline;
+}
+
+#header {
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Palette Mosaic', cursive;
 }
